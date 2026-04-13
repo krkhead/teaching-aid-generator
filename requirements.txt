@@ -1,0 +1,14 @@
+# Teaching Aid Generator — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core CLI
+groq>=0.9.0
+reportlab>=4.0.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+
+# Web UI (run with: streamlit run app.py)
+streamlit>=1.32.0
+
+# Optional — enable automatic image generation in PDFs
+# google-genai>=0.3.0

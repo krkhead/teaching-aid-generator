@@ -1,0 +1,21 @@
+# Secrets — never commit these
+.env
+.env.*
+
+# Generated output — large files, not source code
+output/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
